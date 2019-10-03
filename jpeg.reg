@@ -1,0 +1,47 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\.jpeg]
+
+[HKEY_CLASSES_ROOT\.jpeg]
+"Content Type"="image/jpeg"
+@="jpegfile"
+"PerceivedType"="image"
+
+[-HKEY_CLASSES_ROOT\.jpe]
+
+[HKEY_CLASSES_ROOT\.jpe]
+"Content Type"="image/jpeg"
+@="jpegfile"
+"PerceivedType"="image"
+
+[-HKEY_CLASSES_ROOT\.jpg]
+
+[HKEY_CLASSES_ROOT\.jpg]
+"Content Type"="image/jpeg"
+@="jpegfile"
+"PerceivedType"="image"
+
+[-HKEY_CLASSES_ROOT\.jfif]
+
+[HKEY_CLASSES_ROOT\.jfif]
+"Content Type"="image/jpeg"
+@="jpegfile"
+"PerceivedType"="image"
+
+[-HKEY_CLASSES_ROOT\jpegfile]
+
+[HKEY_CLASSES_ROOT\jpegfile]
+@="JPEG Image"
+
+[HKEY_CLASSES_ROOT\jpegfile\DefaultIcon]
+@="\"C:\\Program Files (x86)\\shimgvw_xp32\\shimgvw.dll\",3"
+
+[HKEY_CLASSES_ROOT\jpegfile\Shell]
+@=""
+
+[HKEY_CLASSES_ROOT\jpegfile\Shell\open]
+@=""
+
+[HKEY_CLASSES_ROOT\jpegfile\Shell\open\Command]
+@="\"C:\\Program Files (x86)\\shimgvw_xp32\\shimgvw.exe\" \"%1\""
+
