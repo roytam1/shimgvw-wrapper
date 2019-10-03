@@ -1,0 +1,2 @@
+rc shimgvw.rc
+clang -std=c++17 -Wno-nonportable-include-path -Wno-invalid-token-paste -Wno-microsoft-enum-value -Wno-pragma-pack -Wno-ignored-pragma-intrinsic -Wno-reserved-user-defined-literal -Wno-macro-redefined -Wno-expansion-to-defined -m32 -fuse-ld=lld -nodefaultlibs -nostdlib -Oz -Xlinker "-subsystem:windows,5.0" -Wl,-entry:start,-merge:.rdata=.text,-out:shimgvw.exe kernel32.lib user32.lib shell32.lib comdlg32.lib shlwapi.lib shimgvw.cpp shimgvw.res
